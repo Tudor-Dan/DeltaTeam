@@ -6,7 +6,7 @@ const choose = () => {
     if (userOption === "1") {
         studentsController.submenu();
     } else if (userOption === "2") {
-        display.printMessage("Not implemented yet.", true);
+        studentsController.submenuStatistics();
     } else if (userOption === "0") {
         display.printMessage("Bueno, hasta la vista, companeros!");
         process.exit();
